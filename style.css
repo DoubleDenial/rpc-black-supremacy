@@ -2644,6 +2644,9 @@ table.page-history tr td:nth-child(2)  {
 margin: 0;
 }
 
+/* Hide ListResize Header */
+#page-content > p:first-child > .listresize { display: none; }
+
 /* Hide Banned Users */
 .printuser a[href*="the-fozz-2"]:nth-child(1) {
     visibility: hidden;
@@ -3009,4 +3012,5 @@ Margin: 5px 0px;
 }
 
 }
+
 
