@@ -1171,7 +1171,7 @@ div#container-wrap {
     min-height: 1200px;
     background: var(--page-background);
     padding: var(--page-padding);
-    Border: var(--page-border);
+    border: var(--page-border);
     border-radius: var(--page-border-radius);
 }
 
@@ -2173,7 +2173,7 @@ span.error-inline em::after {
 .forum-thread-box .description-block, .well {
     padding: .5em 1em;
     border-radius: var(--forum-thread-border-radius)!important;
-    Border: var(--forum-thread-border)!important;
+    border: var(--forum-thread-border)!important;
     background: var(--forum-thread-background)!important;
     color: var(--text-color);
     box-shadow: var(--forum-thread-box-shadow);
@@ -2186,6 +2186,8 @@ span.error-inline em::after {
     box-shadow: inset 2px 3px 6px rgba(0,0,0,.15);
     border-radius: 5px 5px 0 0;
 }
+
+.thread-container .post img { max-width: 100%; }
  
 .folded .short {
     background: rgba(0,0,0,0.12)!important;
@@ -3012,5 +3014,6 @@ Margin: 5px 0px;
 }
 
 }
+
 
 
